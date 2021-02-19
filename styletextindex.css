@@ -1,0 +1,111 @@
+html{
+    background-color: rgb(39, 39, 44);
+}
+body{
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    }
+    .boutonmenuprincipal {
+        background-color: #312f2f;
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding:30px;
+        font-size: 2.25em;
+        align-items: left;
+        width: 100%;
+        padding-right: 78px;
+        }
+        .boutonmenuprincipal:hover {
+        background-color: #5e5c5c;
+        }
+        .dropdown {
+        position: relative;
+        display: inline-block;
+    
+    
+        }
+        .dropdown-child {
+        display: none;
+        position: absolute;
+        background-color: #5e5c5c;
+        min-width: 50px;
+        }
+        .dropdown-child a {
+        color: white;
+        padding: 20px;
+        text-decoration: none;
+        display: block;
+        }
+        .dropdown:hover .dropdown-child {
+        display: block;
+        font-size: 1.2em;
+        }
+        nav {
+            justify-content: space-between;
+            background-color: #312f2f;
+        }
+        li{
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+        h3{
+            position: absolute;
+            top: 20px;
+            font-size: 1.5em;
+            color: aliceblue;
+        }
+        
+}
+.boutonmenuprincipal {
+    background-color: #312f2f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:30px;
+    font-size: 2.25em;
+    align-items: left;
+    width: 100%;
+    padding-right: 67px;
+    }
+    .boutonmenuprincipal:hover {
+    background-color: #5e5c5c;
+    }
+    .dropdown {
+    position: relative;
+    display: inline-block;
+
+
+    }
+    .dropdown-child {
+    display: none;
+    position: absolute;
+    background-color: #5e5c5c;
+    min-width: 50px;
+    }
+    .dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    }
+    .dropdown:hover .dropdown-child {
+    display: block;
+    font-size: 1.2em;
+    }
+    nav {
+        justify-content: space-between;
+        background-color: #312f2f;
+    }
+    li{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    h3{
+        position: absolute;
+        top: 20px;
+        font-size: 1.5em;
+        color: aliceblue;
+    }
+    
