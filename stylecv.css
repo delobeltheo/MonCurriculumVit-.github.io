@@ -66,31 +66,31 @@
     }
 
     header{
-        background-color: dimgrey;
+        background-color: slategray;
         width: 100%;
     }
 
     .autre{
-        background-color: aliceblue;
+        background-color: slategray;
         grid-area: 1 / 1 / 3 / 2 ;
     }
 
     .diplome{
-        background-color: aqua;
+        background-color: slategray;
         grid-area: 2 / 2 / 3 / 4 ;
     }
 
     .contact{
-        background-color: aquamarine;
+        background-color: slategray;
         grid-area: 1 / 2 / 2 / 3 ;
     }
 
     .PFMP{
-        background-color:blue;
+        background-color:slategray;
     }
 
     .text{
-        background-color: blueviolet;
+        background-color: slategray;
         grid-area: 1 / 4 / 3 / 4 ;
     }
 
